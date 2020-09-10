@@ -36,14 +36,17 @@ fun main(){
             if (userAns == 1) {
                 print("Enter the Amount You Would Like to Replace in Item 1: ")
                 amount = readLine()!!.toInt()
+                qty[0] = ""
                 qty[0] += amount.toString()
             }else if (userAns == 2) {
                 print("Enter the Amount You Would Like to Replace in Item 2: ")
                 amount = readLine()!!.toInt()
+                qty[1] = ""
                 qty[1] += amount.toString()
             }else if (userAns == 2) {
                 print("Enter the Amount You Would Like to Replace in Item 3: ")
                 amount = readLine()!!.toInt()
+                qty[2] = ""
                 qty[2] += amount.toString()
             }
 
